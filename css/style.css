@@ -1,0 +1,17 @@
+body {
+  background-color: #f0f0f0;
+  font-family: HelveticaNeue,sans-serif;
+}
+
+h1 {
+  font-size: 3.4rem;
+  font-weight: lighter;
+  color: #369;
+  letter-spacing: 4.5px;
+}
+
+p {
+  font-size: .9em;
+  color: #369;
+  margin-top: -15px;
+}
