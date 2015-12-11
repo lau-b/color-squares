@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Paint le squares</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   </head>
   <body>
     <center>
@@ -13,14 +14,12 @@
           Hover over an empty square to color it! Create awesome paintings!
         </p>
       </header>
-      <div class="container">
-        <button>Create Grid</button>
+      <div id="button" class="container">
+        <button onclick="drawCube()">Create Grid</button>
       </div>
-      <div class="container">
-        <div class="square">
-        </div>
+      <div id="cube" class="container">
+      </div>
     </center>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="square.js"></script>
+    <script src="js/square.js"></script>
   </body>
 </html>

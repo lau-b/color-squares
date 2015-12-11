@@ -1,9 +1,14 @@
-var htmlSquare;
-var size = 8;
+var htmlCube = '';
+var size;
 
-for ( var row = 0; row < size; i++) {
-  for ( var col = 0; col < size; i++) {
-    htmlSquare += '<div class="container"></div>';
+drawCube = function(size) {
+  size = prompt('Enter the size of your cube [Heigt = Width]');
+  for (var x = 0; x < size; x++) {
+    for (var i = 0; i < size; i++) {
+      htmlCube += '<div class="square"></div>';
+    }
+    htmlCube += '<br />';
   }
-  htmlSquare += '<br />';
+  $('#cube').append(htmlCube);
+  htmlCube = '';
 }
