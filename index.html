@@ -5,6 +5,7 @@
     <title>Paint le squares</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/square.js"></script>
   </head>
   <body>
     <center>
@@ -15,11 +16,20 @@
         </p>
       </header>
       <div id="button" class="container">
-        <button onclick="drawCube()">Create Grid</button>
+        <button class="normal">Create Grid</button>
+        <button class="color">Colorful</button>
+        <button class="trail">Trail</button>
+        <button class="opacity">Opacity</button>
+        <button onclick="clearCube()">Clear Grid</button>
       </div>
-      <div id="cube" class="container">
+      <div class="cube">
       </div>
     </center>
-    <script src="js/square.js"></script>
   </body>
 </html>
+
+
+<!--
+
+
+-->
